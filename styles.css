@@ -1,0 +1,39 @@
+body {
+    background-image: url(https://images.immediate.co.uk/production/volatile/sites/25/2020/11/GettyImages-950666456-85e72f1-e1625125685297.jpg);
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.stickybox {
+    box-sizing: border-box;
+    background-color: #000000;
+    margin-top: 0;
+    padding-top: 0;
+    opacity: 0.5;
+    top: 0;
+    position: -webkit-sticky;
+    position: sticky;
+  }
+
+li {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 15px 15px;
+    text-transform: uppercase;
+  }
+
+.sticky {
+    
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+  }
