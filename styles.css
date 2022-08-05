@@ -22,12 +22,12 @@ body {
     
 }
 
-img {
-    width: 50px;
-    height: 50px;
+.stickybox img {
+    width: 30px;
+    height: 30px;
 }
 
-.stickybox li {
+.stickybox p{
     color: rgb(255, 255, 255);
     display: inline-block;
     font-family: system-ui;
@@ -37,3 +37,16 @@ img {
     padding: 15px 15px;
     text-transform: uppercase;
   }
+
+.gotop {
+  box-sizing: border-box;
+  background-color: #000000;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  opacity: 0.5;
+  text-align: center;
+}
+
+.gotop a{
+  color: rgb(0, 217, 255);
+}
