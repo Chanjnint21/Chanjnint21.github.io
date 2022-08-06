@@ -1,5 +1,5 @@
 body {
-    background-image: url(https://images.immediate.co.uk/production/volatile/sites/25/2020/11/GettyImages-950666456-85e72f1-e1625125685297.jpg);
+    background-image: rgb(161, 159, 159)/*url(https://images.immediate.co.uk/production/volatile/sites/25/2020/11/GettyImages-950666456-85e72f1-e1625125685297.jpg)*/;
     margin: 0;
     padding: 0;
     background-position: center;
@@ -14,17 +14,10 @@ body {
     margin-top: 0;
     padding-top: 0;
     top: 0;
-    opacity: 0.5;
     position: -webkit-sticky;
     position: sticky;
-    align-items: center;
     display: flex;
-    
-}
-
-.stickybox img {
-    width: 30px;
-    height: 30px;
+    justify-content: space-between;   
 }
 
 .stickybox p{
@@ -35,9 +28,42 @@ body {
     letter-spacing: 2px;
     margin: 0;
     padding: 15px 15px;
+    padding-left: 25px;
     text-transform: uppercase;
-  }
+}
+img {
+  width: 50%;
+  height: 50px;
+  margin: auto;
+  display: block;
+  margin-top: 0;
+  padding-bottom: 0;
 
+}
+.box {
+  box-sizing: border-box;
+  background-color: #000000;
+  margin-top: 50;
+  padding-top: 50;
+}
+
+.aboutme {
+  font-family: system-ui;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.aboutme img{
+  width: 300px;
+  height: 300px;
+}
+
+.aboutme span {
+  color: rgb(255, 255, 255);
+  padding: 100px;
+}
 .gotop {
   box-sizing: border-box;
   background-color: #000000;
