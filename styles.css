@@ -20,7 +20,7 @@ body {
     justify-content: space-between;   
 }
 
-.stickybox p{
+.stickybox a{
     color: rgb(255, 255, 255);
     display: inline-block;
     font-family: system-ui;
@@ -30,6 +30,7 @@ body {
     padding: 15px 15px;
     padding-left: 25px;
     text-transform: uppercase;
+    text-decoration: none;
 }
 img {
   width: 50%;
@@ -40,11 +41,11 @@ img {
   padding-bottom: 0;
 
 }
-.box {
+.aboutme-box {
   box-sizing: border-box;
   background-color: #000000;
-  margin-top: 50;
-  padding-top: 50;
+  margin-bottom: 40px;
+  margin-top: 30px;
 }
 
 .aboutme {
@@ -64,15 +65,79 @@ img {
   color: rgb(255, 255, 255);
   padding: 100px;
 }
+
+.aboutme a{
+  color: rgb(255, 255, 255);
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  font-family: system-ui;
+
+}
+
+.Exp-tran1 {
+  font-family: system-ui;
+  display: flex;
+  align-items: center;
+}
+.Exp-tran1 img{
+  width: 450px;
+  height: 300px;
+  border-radius: 2%;
+  margin-left: 100px;margin-left: 100px;
+  margin-right: 100px;
+}
+.Exp-tran1 span {
+  color: rgb(0, 0, 0);
+  padding: 100px;
+}
+
+.Exp-tran2 {
+  font-family: system-ui;
+  display: flex;
+  align-items: center;
+}
+.Exp-tran2 img{
+  width: 450px;
+  height: 300px;
+  border-radius: 2%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Exp-tran2 span {
+  color: rgb(0, 0, 0);
+  padding: 100px;
+}
+
+.Exp-tran3 {
+  font-family: system-ui;
+  display: flex;
+  align-items: center;
+}
+.Exp-tran3 img{
+  width: 450px;
+  height: 300px;
+  border-radius: 2%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.Exp-tran3 span {
+  color: rgb(0, 0, 0);
+  padding: 100px;
+}
+
 .gotop {
   box-sizing: border-box;
   background-color: #000000;
   margin-bottom: 0;
   padding-bottom: 0;
-  opacity: 0.5;
   text-align: center;
 }
 
 .gotop a{
-  color: rgb(0, 217, 255);
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  display: inline-block;
+  font-family: system-ui;
 }
