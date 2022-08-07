@@ -1,8 +1,7 @@
 body {
-    background-image: rgb(161, 159, 159)/*url(https://images.immediate.co.uk/production/volatile/sites/25/2020/11/GettyImages-950666456-85e72f1-e1625125685297.jpg)*/;
+    background: rgb(248, 248, 248);
     margin: 0;
     padding: 0;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -32,6 +31,27 @@ body {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.box{
+  font-family: system-ui;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.box img{
+  width: 30px;
+  height: 30px;
+}
+.box img:hover{
+  opacity: 0.5;
+  background-color: rgb(0, 0, 0);
+}
+.box span {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
 img {
   width: 50%;
   height: 50px;
@@ -50,7 +70,7 @@ img {
 
 .aboutme {
   font-family: system-ui;
-  font-size: 25px;
+  font-size: 20px;
   display: flex;
   align-items: center;
   padding-left: 100px;
@@ -112,15 +132,32 @@ h2 {
   padding: 100px;
 }
 
-.container {
+.logo {
+  text-align: center;
+}
+.logo img{
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+}
+
+.Contact {
   text-align: center;
 }
 
-.container img {
+.Contact img {
   display: inline-block;
   margin:20px;
   width: 50px;
   height: 50px;
+}
+
+.Resume {
+  text-align: center;
+}
+.Resume img {
+  width: 60%;
+  height: 1200px;
 }
 
 .gotop {
