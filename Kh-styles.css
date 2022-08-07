@@ -7,7 +7,7 @@ body {
     background-attachment: fixed;
   }
 
-.stickybox {
+.kh-stickybox {
     box-sizing: border-box;
     background-color: #000000;
     margin-top: 0;
@@ -19,11 +19,11 @@ body {
     justify-content: space-between;   
 }
 
-.stickybox a{
+.kh-stickybox a{
     color: rgb(255, 255, 255);
     display: inline-block;
-    font-family: system-ui;
-    font-size: 20px;
+    font-family: khmer;
+    font-size: 17.5px;
     letter-spacing: 2px;
     margin: 0;
     padding: 15px 15px;
@@ -32,27 +32,27 @@ body {
     text-decoration: none;
 }
 
-.stickybox a:hover {
+.kh-stickybox a:hover {
   opacity: 0.5;
   background-color: rgb(0, 0, 0);
 }
 
-.namelogo {
+.kh-namelogo {
   font-family: system-ui;
   font-size: 20px;
   display: flex;
   align-items: center;
   padding-left: 15px;
 }
-.namelogo img{
+.kh-namelogo img{
   width: 30px;
   height: 30px;
 }
-.namelogo img:hover{
+.kh-namelogo img:hover{
   opacity: 0.5;
   background-color: rgb(0, 0, 0);
 }
-.namelogo span {
+.kh-namelogo span {
   color: rgb(255, 255, 255);
   padding: 10px;
 }
@@ -66,32 +66,32 @@ img {
   margin-bottom: 0;
   padding-bottom: 0;
 }
-.aboutme-box {
+.kh-aboutme-box {
   box-sizing: border-box;
   background-color: #000000;
   margin-bottom: 40px;
   margin-top: 30px;
 }
 
-.aboutme {
+.kh-aboutme {
   font-family: system-ui;
   font-size: 20px;
   display: flex;
   align-items: center;
   padding-left: 100px;
 }
-.aboutme img{
+.kh-aboutme img{
   width: 320px;
   height: 320px;
 }
-.aboutme span {
+.kh-aboutme span {
   color: rgb(255, 255, 255);
   padding: 100px;
 }
-.aboutme a{
+.kh-aboutme a{
   color: rgb(255, 255, 255);
 }
-.aboutme a:hover {
+.kh-aboutme a:hover {
   opacity: 0.5;
   background-color: rgb(0, 0, 0);
 }
@@ -102,56 +102,56 @@ h2 {
 
 }
 
-.Exp-tran1 {
+.kh-Exp-tran1 {
   font-family: system-ui;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   align-items: center;
 }
-.Exp-tran1 img{
+.kh-Exp-tran1 img{
   width: 450px;
   height: 300px;
   border-radius: 2%;
   margin-left: 100px;margin-left: 100px;
   margin-right: 100px;
 }
-.Exp-tran1 span {
+.kh-Exp-tran1 span {
   color: rgb(0, 0, 0);
   padding: 100px;
 }
 
-.Exp-tran2 {
+.kh-Exp-tran2 {
   font-family: system-ui;
-  font-size: 20px;
+  font-size: 15px;
   display: flex;
   align-items: center;
 }
-.Exp-tran2 img{
+.kh-Exp-tran2 img{
   width: 450px;
   height: 300px;
   border-radius: 2%;
   margin-left: 100px;
   margin-right: 100px;
 }
-.Exp-tran2 span {
+.kh-Exp-tran2 span {
   color: rgb(0, 0, 0);
   padding: 100px;
 }
 
-.logo {
+.kh-logo {
   text-align: center;
 }
-.logo img{
+.kh-logo img{
   display: inline-block;
   width: 300px;
   height: 300px;
 }
 
-.Contact {
+.kh-Contact {
   text-align: center;
 }
 
-.Contact img {
+.kh-Contact img {
   display: inline-block;
   margin:20px;
   width: 50px;
@@ -166,7 +166,7 @@ h2 {
   height: 1200px;
 }
 
-.gotop {
+.kh-gotop {
   box-sizing: border-box;
   background-color: #000000;
   margin-bottom: 0;
@@ -174,7 +174,7 @@ h2 {
   text-align: center;
 }
 
-.gotop a{
+.kh-gotop a{
   color: rgb(255, 255, 255);
   text-decoration: none;
   display: inline-block;
