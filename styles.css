@@ -24,7 +24,7 @@ body {
     color: rgb(255, 255, 255);
     display: inline-block;
     font-family: system-ui;
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin: 0;
     padding: 15px 15px;
@@ -38,8 +38,8 @@ img {
   margin: auto;
   display: block;
   margin-top: 0;
+  margin-bottom: 0;
   padding-bottom: 0;
-
 }
 .aboutme-box {
   box-sizing: border-box;
@@ -50,15 +50,15 @@ img {
 
 .aboutme {
   font-family: system-ui;
-  font-size: 20px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   padding-left: 100px;
 }
 
 .aboutme img{
-  width: 300px;
-  height: 300px;
+  width: 320px;
+  height: 320px;
 }
 
 .aboutme span {
@@ -78,6 +78,7 @@ h2 {
 
 .Exp-tran1 {
   font-family: system-ui;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
@@ -95,6 +96,7 @@ h2 {
 
 .Exp-tran2 {
   font-family: system-ui;
+  font-size: 20px;
   display: flex;
   align-items: center;
 }
@@ -110,21 +112,15 @@ h2 {
   padding: 100px;
 }
 
-.Exp-tran3 {
-  font-family: system-ui;
-  display: flex;
-  align-items: center;
+.container {
+  text-align: center;
 }
-.Exp-tran3 img{
-  width: 450px;
-  height: 300px;
-  border-radius: 2%;
-  margin-left: 100px;
-  margin-right: 100px;
-}
-.Exp-tran3 span {
-  color: rgb(0, 0, 0);
-  padding: 100px;
+
+.container img {
+  display: inline-block;
+  margin:20px;
+  width: 50px;
+  height: 50px;
 }
 
 .gotop {
