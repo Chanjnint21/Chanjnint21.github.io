@@ -12,6 +12,7 @@ body {
     background-color: #000000;
     margin-top: 0;
     padding-top: 0;
+    z-index: 1;
     top: 0;
     position: -webkit-sticky;
     position: sticky;
