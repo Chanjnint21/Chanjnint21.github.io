@@ -77,11 +77,16 @@ body {
   20% {text-shadow: 10px 20px 30px black;}
 }
 
-.kh-centered {
+.centered {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.centered img{
+  margin-top: 50px;
+  width: 50px;
+  height: 50px;
 }
 
 img {
