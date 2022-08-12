@@ -6,6 +6,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
   }
+html {
+  scroll-behavior: smooth;
+}
 
 .kh-stickybox {
     box-sizing: border-box;
